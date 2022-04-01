@@ -83,12 +83,12 @@ const char index_html[] PROGMEM = R"rawliteral(
   <br>
   <p>Ouput GPIO 14 (D6): <span id="state1">%STATE1%</span></p>
   <p>
-  <button class="button" onmousedown="toggleCheckbox(onButton1());" ontouchstart="toggleCheckbox(offButton1());" onmouseup="toggleCheckbox(offButton1());" ontouchend="toggleCheckbox(offButton1());">PUSHBUTTON 1</button>
+  <button class="button" onmousedown="toggleCheckbox(onButton1());" ontouchstart="toggleCheckbox(onButton1());" onmouseup="toggleCheckbox(offButton1());" ontouchend="toggleCheckbox(offButton1());">PUSHBUTTON 1</button>
   <p>
   <br>
   <p>Ouput GPIO 12 (D5): <span id="state2">%STATE2%</span></p>
   <p>
-  <button class="button" onmousedown="toggleCheckbox(onButton2());" ontouchstart="toggleCheckbox(offButton2());" onmouseup="toggleCheckbox(offButton2());" ontouchend="toggleCheckbox(offButton2());">PUSHBUTTON 2</button>
+  <button class="button" onmousedown="toggleCheckbox(onButton2());" ontouchstart="toggleCheckbox(onButton2());" onmouseup="toggleCheckbox(offButton2());" ontouchend="toggleCheckbox(offButton2());">PUSHBUTTON 2</button>
  <p>
  <br>  
 <script>function toggleCheckbox(element) {
