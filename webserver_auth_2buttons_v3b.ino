@@ -24,8 +24,8 @@
 #include <ESPAsyncWebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "bbk2"; //"REPLACE_WITH_YOUR_SSID";
-const char* password = "internet2"; //"REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 const char* http_username = "admin";
 const char* http_password = "admin";
